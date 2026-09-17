@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "de-zoomcamp-2026",
+			"path": "de-zoomcamp-2026"
+		},
+		{
+			"name": "data-engineering-zoomcamp",
+			"path": "data-engineering-zoomcamp"
+		},
+		{
+			"name": "Capital-Slice-Build-Along",
+			"path": "Capital-Slice-Build-Along"
+		},
+		{
+			"path": "../Downloads/Credit Analytics Portfolio Project"
+		}
+	],
+	"settings": {}
+}

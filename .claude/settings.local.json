@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Process \"C:\\\\Users\\\\abdulbasitbello\\\\.claude\\\\usage-data\\\\report-2026-06-24-222456.html\")"
+    ]
+  }
+}
