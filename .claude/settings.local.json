@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(Start-Process \"C:\\\\Users\\\\abdulbasitbello\\\\.claude\\\\usage-data\\\\report-2026-06-24-222456.html\")"
+      "PowerShell(Start-Process \"C:\\\\Users\\\\abdulbasitbello\\\\.claude\\\\usage-data\\\\report-2026-06-24-222456.html\")",
+      "PowerShell(echo \"=== Nested .git directories \\(embedded repos\\) ===\"; Get-ChildItem -Directory -Force | ForEach-Object { $g = Join-Path $_.FullName \".git\"; if \\(Test-Path $g\\) { \"{0}  \\({1}\\)\" -f $_.Name, \\(if \\(\\(Get-Item $g\\).PSIsContainer\\) {\"repo\"} else {\"gitfile\"}\\) } })",
+      "Bash(exit 1)",
+      "Bash(git -C brand-design-system status --porcelain)",
+      "Bash(git -C data-engineering-zoomcamp log --oneline -3)",
+      "Bash(git -C data-engineering-zoomcamp remote -v)",
+      "Bash(git config *)",
+      "Bash(git push *)"
     ]
   }
 }
